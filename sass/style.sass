@@ -424,19 +424,19 @@ hr
     margin: 0
     padding: 0
     
-@media screen and  (min-width: 576px)
-    .carousel
-        gap: 15px
-        width: 710px
-        height: 678px
-        &-inner
-            display: flex
-        &-item
-            display: block
-            flex: 0 0 calc(100%/3)
-            margin-right: 15px
-            &:last-child
-                margin-right: 0
+// @media screen and  (min-width: 576px)
+.carousel-lessons
+    gap: 15px
+    width: 710px
+    height: 678px
+    &-inner
+        display: flex
+    &-item
+        display: block
+        flex: 0 0 calc(100%/3)
+        margin-right: 15px
+        &:last-child
+            margin-right: 0
 .cards
     width: 330px
     max-width: 330px
@@ -623,14 +623,12 @@ hr
     letter-spacing: 0.2px
 
 .container-fourth-section
-    background-color: $primary-color
     display: flex
     width: 1440px
     padding: 0px 195px
     justify-content: center
     align-items: center
     &-info
-        background-color: $danger-color
         display: flex
         width: 1050px
         padding: 160px 0px
@@ -641,4 +639,135 @@ hr
     &-row
         width: 1050px
 
+.fourth-section-tag
+    font-family: Montserrat
+    font-size: 14px
+    font-style: normal
+    font-weight: 700
+    line-height: 24px
+    letter-spacing: 0.2px
+    color: $primary-color
+    margin: 0
+    padding: 0
 
+.fourth-section-title
+    font-family: Montserrat
+    font-size: 40px
+    font-style: normal
+    font-weight: 700
+    line-height: 50px
+    letter-spacing: 0.2px
+    color: $text-color
+    margin: 0
+    padding: 0
+
+.fourth-paragraph
+    font-family: Montserrat
+    font-size: 14px
+    font-style: normal
+    font-weight: 400
+    line-height: 20px
+    letter-spacing: 0.2px
+    color: $second-text-color   
+    text-align: center
+    margin: 0
+    padding: 0
+
+.carousel-testimonials
+    width: 1050px
+    display: flex
+    align-items: flex-start
+    &-inner
+        display: flex
+        justify-content: flex-start
+    &-item
+        display: flex
+        width: 501px
+        display: block
+        flex: 0 0 calc(100%/5)
+        margin-right: 15px
+        &:last-child
+            margin-right: 0
+
+.testimonials-card
+    display: flex
+    width: 501px
+    padding: 25px 25px 0px 25px
+    flex-direction: column
+    align-items: center
+    align-self: stretch
+    width: 501px
+    height: 100%
+
+.profile-photo
+    width: 128px
+    height: 128px
+    border-radius: 50%
+    &-first
+        background: url(../img/fourth_section/testimonial-user-cover-197.png) center/128px 128px
+    &-second
+        background: url(../img/fourth_section/testimonial-user-cover-198.png)
+    &-third
+        background: url(../img/fourth_section/testimonial-user-cover-199.png)
+    &-fourth
+        background: url(../img/fourth_section/testimonial-user-cover-200.png) center/128px 128px
+
+.card-content
+    display: flex
+    padding: 30px
+    flex-direction: column
+    align-items: center
+    gap: 15px
+    align-self: stretch
+
+.testimonials-text
+    width: 159px
+    color: $second-text-color
+    text-align: center
+    font-family: Montserrat
+    font-size: 14px
+    font-style: normal
+    font-weight: 400
+    line-height: 20px
+    letter-spacing: 0.2px
+    margin-bottom: 0   
+
+.star-rate
+    height: 22px
+.star
+    width: 22px
+    height: 22px
+    margin-right: 5px
+    margin-bottom: 0
+    &:last-child
+        margin-right: 0
+
+.person-info
+    width: 160px
+    display: flex
+    padding: 0px 25px
+    flex-direction: column
+    align-items: center
+    gap: 5px
+
+.person-name
+    color: $text-color
+    text-align: center
+    font-family: Montserrat
+    font-size: 16px
+    font-style: normal
+    font-weight: 700
+    line-height: 24px
+    letter-spacing: 0.1px
+    margin-bottom: 0
+
+.person-post
+    color: $second-text-color
+    text-align: center
+    font-family: Montserrat
+    font-size: 14px
+    font-style: normal
+    font-weight: 700
+    line-height: 24px
+    letter-spacing: 0.2px
+    margin-bottom: 0

@@ -544,27 +544,28 @@ hr {
   padding: 0;
 }
 
-@media screen and (min-width: 576px) {
-  /* line 428, ../first-project/sass/style.sass */
-  .carousel {
-    gap: 15px;
-    width: 710px;
-    height: 678px;
-  }
-  /* line 432, ../first-project/sass/style.sass */
-  .carousel-inner {
-    display: flex;
-  }
-  /* line 434, ../first-project/sass/style.sass */
-  .carousel-item {
-    display: block;
-    flex: 0 0 calc(100%/3);
-    margin-right: 15px;
-  }
-  /* line 438, ../first-project/sass/style.sass */
-  .carousel-item:last-child {
-    margin-right: 0;
-  }
+/* line 428, ../first-project/sass/style.sass */
+.carousel-lessons {
+  gap: 15px;
+  width: 710px;
+  height: 678px;
+}
+
+/* line 432, ../first-project/sass/style.sass */
+.carousel-lessons-inner {
+  display: flex;
+}
+
+/* line 434, ../first-project/sass/style.sass */
+.carousel-lessons-item {
+  display: block;
+  flex: 0 0 calc(100%/3);
+  margin-right: 15px;
+}
+
+/* line 438, ../first-project/sass/style.sass */
+.carousel-lessons-item:last-child {
+  margin-right: 0;
 }
 
 /* line 440, ../first-project/sass/style.sass */
@@ -809,7 +810,6 @@ hr {
 
 /* line 625, ../first-project/sass/style.sass */
 .container-fourth-section {
-  background-color: #23A6F0;
   display: flex;
   width: 1440px;
   padding: 0px 195px;
@@ -817,9 +817,8 @@ hr {
   align-items: center;
 }
 
-/* line 632, ../first-project/sass/style.sass */
+/* line 631, ../first-project/sass/style.sass */
 .container-fourth-section-info {
-  background-color: #E74040;
   display: flex;
   width: 1050px;
   padding: 160px 0px;
@@ -829,9 +828,193 @@ hr {
   flex-shrink: 0;
 }
 
-/* line 641, ../first-project/sass/style.sass */
+/* line 639, ../first-project/sass/style.sass */
 .container-fourth-section-row {
   width: 1050px;
+}
+
+/* line 642, ../first-project/sass/style.sass */
+.fourth-section-tag {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #23A6F0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 653, ../first-project/sass/style.sass */
+.fourth-section-title {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 664, ../first-project/sass/style.sass */
+.fourth-paragraph {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 676, ../first-project/sass/style.sass */
+.carousel-testimonials {
+  width: 1050px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* line 680, ../first-project/sass/style.sass */
+.carousel-testimonials-inner {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* line 683, ../first-project/sass/style.sass */
+.carousel-testimonials-item {
+  display: flex;
+  width: 501px;
+  display: block;
+  flex: 0 0 calc(100%/5);
+  margin-right: 15px;
+}
+
+/* line 689, ../first-project/sass/style.sass */
+.carousel-testimonials-item:last-child {
+  margin-right: 0;
+}
+
+/* line 692, ../first-project/sass/style.sass */
+.testimonials-card {
+  display: flex;
+  width: 501px;
+  padding: 25px 25px 0px 25px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  width: 501px;
+  height: 100%;
+}
+
+/* line 702, ../first-project/sass/style.sass */
+.profile-photo {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+/* line 706, ../first-project/sass/style.sass */
+.profile-photo-first {
+  background: url(../img/fourth_section/testimonial-user-cover-197.png) center/128px 128px;
+}
+
+/* line 708, ../first-project/sass/style.sass */
+.profile-photo-second {
+  background: url(../img/fourth_section/testimonial-user-cover-198.png);
+}
+
+/* line 710, ../first-project/sass/style.sass */
+.profile-photo-third {
+  background: url(../img/fourth_section/testimonial-user-cover-199.png);
+}
+
+/* line 712, ../first-project/sass/style.sass */
+.profile-photo-fourth {
+  background: url(../img/fourth_section/testimonial-user-cover-200.png) center/128px 128px;
+}
+
+/* line 715, ../first-project/sass/style.sass */
+.card-content {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+
+/* line 723, ../first-project/sass/style.sass */
+.testimonials-text {
+  width: 159px;
+  color: #737373;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin-bottom: 0;
+}
+
+/* line 735, ../first-project/sass/style.sass */
+.star-rate {
+  height: 22px;
+}
+
+/* line 737, ../first-project/sass/style.sass */
+.star {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+/* line 742, ../first-project/sass/style.sass */
+.star:last-child {
+  margin-right: 0;
+}
+
+/* line 745, ../first-project/sass/style.sass */
+.person-info {
+  width: 160px;
+  display: flex;
+  padding: 0px 25px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+/* line 753, ../first-project/sass/style.sass */
+.person-name {
+  color: #252B42;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+/* line 764, ../first-project/sass/style.sass */
+.person-post {
+  color: #737373;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
