@@ -1017,4 +1017,75 @@ hr {
   margin-bottom: 0;
 }
 
+/* line 775, ../first-project/sass/style.sass */
+.container-fifth-section {
+  display: flex;
+  width: 1440px;
+  padding: 0px 195px;
+  justify-content: center;
+}
+
+/* line 780, ../first-project/sass/style.sass */
+.container-fifth-section-info {
+  display: flex;
+  width: 1050px;
+  padding: 160px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  flex-shrink: 0;
+}
+
+/* line 788, ../first-project/sass/style.sass */
+.container-fifth-section-row {
+  margin-bottom: 0;
+}
+
+/* line 791, ../first-project/sass/style.sass */
+.input-group {
+  width: 688px;
+  margin-bottom: 0;
+}
+
+/* line 795, ../first-project/sass/style.sass */
+.form-control {
+  display: flex;
+  width: 688px;
+  height: 58px;
+  padding: 15px 15px 15px 20px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #E6E6E6;
+  background: #F9F9F9;
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+/* line 812, ../first-project/sass/style.sass */
+.btn-outline-secondary {
+  display: flex;
+  width: 117px;
+  height: 58px;
+  padding: 15px 22.5px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #E6E6E6;
+  background: #23A6F0;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
 /*# sourceMappingURL=style.css.map */
